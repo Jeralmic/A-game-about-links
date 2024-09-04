@@ -18,12 +18,31 @@ body
 {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     color: #9aa0a6;
+    line-height: 2.2em; 
+}
+
+#description
+{
+    font-size:small;
+}
+
+a
+{
+    color:#8ab4f8;
+    text-decoration: none;
+    font-size:15px;
+}
+
+p
+{
+    margin:0;
 }
 
 #pagetitle
 {
     font-weight: bold;
-    display: block;
+    display: inline-block;
+    
 }
 
 #errormain
@@ -33,11 +52,22 @@ body
     width: 100%;
     max-width: 600px;
     margin:14vh auto 0;
-    line-height: 1.6; 
 }
 
 h1
 {
     font-weight:500;
     font-size: 25px;
+}
+
+#rbutton
+{
+    background-color: #8ab4f8;
+    border: 0;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 30px;
 }
